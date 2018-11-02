@@ -1,3 +1,10 @@
+/*
+  電車の遅延情報をLineに通知する
+  通知日時 : 平日 07:00〜08:00, 17:00〜18:00
+
+  author KUROMAME
+  reference https://www.indetail.co.jp/blog/180411/
+*/
 function main() {
   //電車遅延情報をJSON形式で取得
   var json = JSON.parse(UrlFetchApp.fetch("https://rti-giken.jp/fhc/api/train_tetsudo/delay.json").getContentText());
