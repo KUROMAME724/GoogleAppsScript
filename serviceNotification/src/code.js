@@ -33,5 +33,5 @@ function sendHttpPost(message) {
   };
 
    //リクエスト送信
-   UrlFetchApp.fetch("https://notify-api.line.me/api/notify",options);
+   UrlFetchApp.fetch("https://notify-api.line.me/api/notify", options);
 }
