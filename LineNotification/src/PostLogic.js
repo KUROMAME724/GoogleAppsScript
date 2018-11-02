@@ -7,7 +7,7 @@
 */
 function sendHttpPost(message, token) {
   //LINE Notifyに送るリクエストを設定
-  var options = {
+  const options = {
     "method"  : "post",
     "payload" : "message=" + message,
     "headers" : { "Authorization" : "Bearer " + token }
