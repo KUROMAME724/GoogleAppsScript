@@ -1,4 +1,4 @@
-function main() {
+function secretRoomMain() {
     const ONE_YEAR_MILLISECOND = 86400000;
     const targetDate = new Date("2015/11/01");
     const today = new Date();
