@@ -7,7 +7,7 @@ function secretRoomMain() {
     var elapsedDay = Math.ceil((today - targetDate) / ONE_DAY_MILLISECOND);
   
     // 付き合った記念日は特別なのでキリ番判定とは別判定にしておこう
-　    if ((elapsedDay % 365) == 0 ) {
+    if ((elapsedDay % 365) == 0 ) {
         var oneYearMessage = "\n" +
                              "付き合ってからちょうど" + elapsedDay/365 + "年が経過したよ！\n" +
                              "ちなみに日数に換算すると" + elapsedDay + "日なんだけど！\n" +
